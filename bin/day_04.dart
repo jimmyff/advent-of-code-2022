@@ -3,7 +3,7 @@ import 'dart:io';
 // Puzzle: https://adventofcode.com/2022/day/4
 void main(List<String> arguments) {
   // parse the assigment pairs
-  final assigments = RegExp(r'([0-9]+)-([0-9]+),([0-9]+)-([0-9]+)\n');
+  final assigments = RegExp(r'([0-9]+)-([0-9]+),([0-9]+)-([0-9]+)');
   final pairs = assigments
       .allMatches(File('assets/day_04_assigments.txt').readAsStringSync())
       .map((m) => [
