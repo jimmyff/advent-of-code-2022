@@ -42,7 +42,7 @@ void main(List<String> arguments) {
         .removeRange(stacks2[m[1]].length - m[0], stacks2[m[1]].length);
   }
   final topCrates9001 = stacks2.fold('', (v, e) => '$v${e.last}');
-  print('Part 1: CrateMover 9000, crates on top = $topCrates9001');
+  print('Part 2: CrateMover 9001, crates on top = $topCrates9001');
 
   exitCode = 0;
 }
