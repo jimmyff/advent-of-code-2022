@@ -12,7 +12,7 @@ void main(List<String> arguments) {
     processed = [value, ...processed].take(4).toList();
     return processed.toSet().length != 4;
   });
-  print('Part 1: Marker appears after ${data.length + 1} character arrives');
+  print('Part 1: Marker appears after ${data.length + 1} characters arrives');
 
   // find message
   processed = [];
@@ -20,7 +20,7 @@ void main(List<String> arguments) {
     processed = [value, ...processed].take(14).toList();
     return processed.toSet().length != 14;
   });
-  print('Part 2: Message appears after ${data.length + 1} character arrives');
+  print('Part 2: Message appears after ${data.length + 1} characters arrives');
 
   exitCode = 0;
 }
