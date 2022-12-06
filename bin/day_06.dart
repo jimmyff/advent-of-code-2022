@@ -20,7 +20,6 @@ void main(List<String> arguments) {
     processed = [value, ...processed].take(14).toList();
     return processed.toSet().length != 14;
   });
-
   print('Part 2: Message appears after ${data.length + 1} character arrives');
 
   exitCode = 0;
